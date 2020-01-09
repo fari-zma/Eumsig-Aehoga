@@ -1,0 +1,38 @@
+body
+{ margin: 0px; font-family: Corbel, Arial, Helvetica, Verdana, sans-serif; }
+
+.header
+{ 
+    width: 100%; position: fixed ; top: 0px; left: 0px; 
+    background: linear-gradient(to top, #c2bcb5, #ffffff);
+    height: 60px;
+}
+
+.logo 
+{  width: 30%; float: left; }
+
+.navigation
+{ display: block; list-style: none; width: 70%; float: right; }
+
+.nav ul
+{ display: none; list-style: none; }
+
+.nav li
+{
+	float: right; display: block; font-size: 20px;
+	padding: 0px 18px 0px 18px; 
+	border-left: 1px solid white;
+}
+
+.nav li a { color: black;}
+
+.nav a:link, #nav a:visited, #nav a:active
+{ display: block; text-decoration: none; }
+
+.nav a:hover { padding-top: 5px;}
+
+h4 { text-align: center; }
+
+.wrapper { width: 1130px; margin-left: auto; margin-right: auto;}
+
+.gallery { text-align: center; }
